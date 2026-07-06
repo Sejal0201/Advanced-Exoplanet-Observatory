@@ -3,13 +3,13 @@ import DatasetRow from "./DatasetRow";
 import type { Dataset } from "./DatasetRow";
 interface DatasetTableProps {
   datasets: Dataset[];
-  onView?: (id: number) => void;
+//   onView?: (id: number) => void;
   onDelete?: (id: number) => void;
 }
 
 export default function DatasetTable({
   datasets,
-  onView,
+//   onView,
   onDelete,
 }: DatasetTableProps) {
   return (
@@ -44,7 +44,7 @@ export default function DatasetTable({
             <DatasetRow
               key={dataset.id}
               dataset={dataset}
-              onView={onView}
+            //   onView={onView}
               onDelete={onDelete}
             />
           ))}

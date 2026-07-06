@@ -13,13 +13,13 @@ export interface Dataset {
 
 interface DatasetRowProps {
   dataset: Dataset;
-  onView?: (id: number) => void;
+//   onView?: (id: number) => void;
   onDelete?: (id: number) => void;
 }
 
 export default function DatasetRow({
   dataset,
-  onView,
+//   onView,
   onDelete,
 }: DatasetRowProps) {
   const navigate = useNavigate();
