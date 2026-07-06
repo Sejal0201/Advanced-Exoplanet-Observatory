@@ -1,0 +1,33 @@
+﻿Cohort: Tracker testing
+Start Date: 2026-05-10,Total Students: 4,Instructor Session Avg: 88%,Total Groups: 3
+
+Batch Timings
+
+STUDENT NAME,EMAIL,ATTENDANCE %,INDUCTION,PROGRESS,BATCH,INSTRUCTOR,GROUP,MENTOR,SES 1,SES 2,SES 3,SES 4
+atharv,atharvmalve09@gmail.com,100%,Completed,Pending,Batch 2,Amaan,xyz,Amaan,Y,Y,Y,
+Jerry,shinnoha2010@gmail.com,75%,Completed,Pending,Batch 2,Amaan,abc1,Amaan,Y,Y,N,Y
+New Student,shaizan@student.iul.ac.in,100%,Completed,Pending,Batch 1,Amaan,xyz,Amaan,Y,Y,Y,
+Pikachu,sej4002@gmail.com,75%,Completed,Pending,Batch 2,Abhishek,abc,Amaan,Y,Y,N,Y
+
+
+MENTORSHIP ATTENDANCE
+
+GROUP: xyz,Mentor: Amaan,Project: check1,Project Finished: Yes
+Timings: ,Meeting Link: ,Students: 2
+
+STUDENT NAME,STUDENT EMAIL,ATTENDANCE %,SES 1
+atharv,atharvmalve09@gmail.com,100%,Y
+New Student,shaizan@student.iul.ac.in,100%,Y
+
+GROUP: abc,Mentor: Amaan,Project: check2,Project Finished: Yes
+Timings: ,Meeting Link: ,Students: 1
+
+STUDENT NAME,STUDENT EMAIL,ATTENDANCE %,SES 1
+Pikachu,sej4002@gmail.com,100%,Y
+
+GROUP: abc1,Mentor: Amaan,Project: ,Project Finished: Yes
+Timings: ,Meeting Link: ,Students: 1
+
+STUDENT NAME,STUDENT EMAIL,ATTENDANCE %,SES 1
+Jerry,shinnoha2010@gmail.com,100%,Y
+
