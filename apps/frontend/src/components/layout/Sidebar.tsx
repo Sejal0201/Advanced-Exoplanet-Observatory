@@ -9,6 +9,7 @@ import {
   LogOut,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 
 const navigation = [
@@ -45,6 +46,7 @@ const navigation = [
 ];
 
 export default function Sidebar() {
+  const navigate = useNavigate();
   return (
     <aside className="sticky top-0 flex h-screen w-72 flex-col border-r border-slate-800 bg-[#020817]">
       <div className="border-b border-slate-800 px-8 py-8">
@@ -107,11 +109,20 @@ export default function Sidebar() {
             />
           </div>
         </div>
-
+{/* 
         <button className="flex w-full items-center gap-3 rounded-xl border border-red-500/20 px-4 py-3 text-red-400 transition hover:bg-red-500/10">
+          
           <LogOut size={18} />
           Logout
-        </button>
+        </button> */}
+
+        <button
+  onClick={() => navigate("/")}
+  className="flex w-full items-center gap-3 rounded-xl border border-red-500/20 px-4 py-3 text-red-400 transition hover:bg-red-500/10"
+>
+  <LogOut size={18} />
+  Logout
+  </button>
       </div>
     </aside>
   );

@@ -4,6 +4,7 @@ import PipelineSection from "./components/Pipeline";
 import DashboardPreview from "./components/DashboardPreview";
 import ResearchSources from "./components/ResearchSources";
 import ArchitectureSection from "./components/Architecture";
+import Footer from "./components/Footer";
 
 export default function LandingPage() {
   return (
@@ -14,6 +15,7 @@ export default function LandingPage() {
       <DashboardPreview />
       <ResearchSources /> 
       <ArchitectureSection />
+      <Footer />
     </>
   );
 }

@@ -32,9 +32,9 @@ export default function DashboardHeader() {
           />
 
           <div>
-            <p className="text-sm font-semibold text-white">
+            {/* <p className="text-sm font-semibold text-white">
               Sejal Jain
-            </p>
+            </p> */}
 
             <p className="text-xs text-slate-400">
               Researcher
